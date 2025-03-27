@@ -8,6 +8,17 @@ This script allows you to decrypt and extract saved passwords from Google Chrome
 - Inspiration from **John Hammond's** YouTube channel
 - Modified for Active Directory domain environments
 
+## Dependencies
+To run this script, you'll need to install the following Python packages:
+
+```
+pip install pywin32
+pip install pycryptodomex
+```
+
+- **pywin32**: Provides access to Windows APIs for user impersonation and cryptography
+- **pycryptodomex**: Used for AES decryption of the Chrome passwords
+
 ## Features
 - Decrypts passwords from Chrome's encrypted storage
 - Supports user impersonation in domain environments
